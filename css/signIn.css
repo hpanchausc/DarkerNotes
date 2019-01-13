@@ -1,0 +1,41 @@
+/* line 1, /Users/LaurenceFong/Desktop/Fall2018/csci201Project3/sass/signIn.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 4, /Users/LaurenceFong/Desktop/Fall2018/csci201Project3/sass/signIn.scss */
+#outercontainer {
+  background-color: lightblue;
+}
+
+/* line 7, /Users/LaurenceFong/Desktop/Fall2018/csci201Project3/sass/signIn.scss */
+#menu {
+  background-color: black;
+}
+
+/* line 10, /Users/LaurenceFong/Desktop/Fall2018/csci201Project3/sass/signIn.scss */
+.row {
+  border: 1px solid black;
+}
+
+/* line 13, /Users/LaurenceFong/Desktop/Fall2018/csci201Project3/sass/signIn.scss */
+.container-fluid {
+  border: 1px solid black;
+}
+
+/* line 16, /Users/LaurenceFong/Desktop/Fall2018/csci201Project3/sass/signIn.scss */
+#sidebar {
+  overflow-y: scroll;
+  background-color: green;
+  width: 300px;
+  height: 95vh;
+}
+
+/* line 21, /Users/LaurenceFong/Desktop/Fall2018/csci201Project3/sass/signIn.scss */
+#sidebar .sidebarItem {
+  width: inherit;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+}
+
+/*# sourceMappingURL=../css/signIn.map */

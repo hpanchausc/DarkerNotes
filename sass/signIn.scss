@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+#outercontainer {
+    background-color: lightblue;
+}
+#menu {
+    background-color: black;
+}
+.row {
+    border: 1px solid black;
+}
+.container-fluid {
+    border: 1px solid black;
+}
+#sidebar {
+    overflow-y: scroll;
+    background-color: green;
+    width: 300px;
+    height: 95vh;
+    .sidebarItem {
+        width: inherit;
+        border-bottom: 2px solid black;
+        border-top: 2px solid black;
+    }
+}

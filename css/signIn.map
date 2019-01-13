@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../sass/signIn.css",
+	"sources": [
+		"../sass/signIn.scss"
+	],
+	"sourcesContent": [
+		"* {\n    box-sizing: border-box;\n}\n#outercontainer {\n    background-color: lightblue;\n}\n#menu {\n    background-color: black;\n}\n.row {\n    border: 1px solid black;\n}\n.container-fluid {\n    border: 1px solid black;\n}\n#sidebar {\n    overflow-y: scroll;\n    background-color: green;\n    width: 300px;\n    height: 95vh;\n    .sidebarItem {\n        width: inherit;\n        border-bottom: 2px solid black;\n        border-top: 2px solid black;\n    }\n}\n"
+	],
+	"mappings": ";AAAA,AAAA,CAAC,CAAC;EACE,UAAU,EAAE,UAAW;CAC1B;;;AACD,AAAA,eAAe,CAAC;EACZ,gBAAgB,EAAE,SAAU;CAC/B;;;AACD,AAAA,KAAK,CAAC;EACF,gBAAgB,EAAE,KAAM;CAC3B;;;AACD,AAAA,IAAI,CAAC;EACD,MAAM,EAAE,eAAgB;CAC3B;;;AACD,AAAA,gBAAgB,CAAC;EACb,MAAM,EAAE,eAAgB;CAC3B;;;AACD,AAAA,QAAQ,CAAC;EACL,UAAU,EAAE,MAAO;EACnB,gBAAgB,EAAE,KAAM;EACxB,KAAK,EAAE,KAAM;EACb,MAAM,EAAE,IAAK;CAMhB;;;AAVD,AAKI,QALI,CAKJ,YAAY,CAAC;EACT,KAAK,EAAE,OAAQ;EACf,aAAa,EAAE,eAAgB;EAC/B,UAAU,EAAE,eAAgB;CAC/B",
+	"names": []
+}

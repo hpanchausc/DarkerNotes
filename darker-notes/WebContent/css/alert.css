@@ -1,0 +1,13 @@
+/* for alert bars */
+
+.fade {
+    opacity: 0;
+    -webkit-transition: opacity 0.1s linear;
+    -moz-transition: opacity 0.1s linear;
+    -o-transition: opacity 0.1s linear;
+    transition: opacity 0.1s linear;
+}
+.fade.in {
+    opacity: 1;
+    height: 100%;
+}

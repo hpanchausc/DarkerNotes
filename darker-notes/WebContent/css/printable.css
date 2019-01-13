@@ -1,0 +1,81 @@
+
+#print-format {
+	display: none;
+}
+
+@media print{
+	body {
+		color: black;
+	}
+	@page
+	{
+	    size:  A4;
+	    margin: 1.6cm;
+	    /* padding-top: 20mm;
+	    padding-bottom: 10mm; */
+	} 
+
+	/* #preview-shade {
+		position: absolute;
+		left: 0;
+		top: 0;
+		margin: 0;
+		padding: 0;
+		overflow: visible !important;
+	}
+	.shadow {
+    	box-shadow: none;
+	}
+	#preview-shade {
+
+		width: 210mm;
+		height: 297mm;
+
+	} */
+	  html
+    {
+        background-color: #FFFFFF;
+        margin: 0px;
+        padding: 0px;
+    }
+	/* body {
+		margin: 1.6cm;
+	} */
+/*
+    #preview-shade
+    {
+        color: black;
+
+    }
+*/
+	#navbar, #text-area, #sidebar{
+		display:none;
+	}
+	#outercontainer {
+		display: none;
+	}
+	#print-format {
+		display: block;
+		color: #000000 /* !important */;
+		font-weight: bolder;
+		word-wrap: break-word;
+		
+		font-family: 'Fira Sans', sans-serif;
+		/* border-radius: 5px; */
+		/* background: #2C2C2C; */
+		background: white;
+		text-align: left !important;
+		-webkit-print-color-adjust: exact !important;/*Adding background color to print*/
+		-webkit-print-color-adjust: exact;
+	}
+	#print-format code {
+		color: black !important;
+		background-color: #e6e6e6;
+		border-radius: 0.3em;
+		padding: 0.3em;
+		/* display: block; */
+		/* color: white ; */
+	}
+
+
+}

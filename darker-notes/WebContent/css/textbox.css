@@ -1,0 +1,33 @@
+#text-area {
+	font-family: "Cousine", monospace;
+	background-color: #2C2C2C;
+	height: 90vh;
+	color: white;
+	overflow-y: scroll;
+	box-sizing: border-box;
+	padding: 30px;
+	margin-right: 20%;
+    margin-left: 20%;
+	height: 75vh;
+	border-radius: 5px;
+}
+::-webkit-scrollbar {
+    width: 0;
+    opacity: 0;
+}
+::-webkit-scrollbar-thumb {
+	background: black;
+    opacity: 0;
+}
+
+/* title bar */
+#text-title {
+	font-family: "Space Mono", monospace;
+	background-color: #2C2C2C;
+	border-radius: 5px;
+	padding: 10px;
+}
+/* application title */
+#title {
+	padding-right: 8.5vw;
+}
